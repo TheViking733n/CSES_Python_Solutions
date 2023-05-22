@@ -1,3 +1,17 @@
+n = int(input())
+a = list(map(int, input().split()))
+a.sort()
+median = a[len(a) >> 1]
+ans = 0
+for x in a:
+	ans += abs(median - x)
+print(ans)
+
+
+
+
+# ==========================================================
+# Bruteforce Approach
 """
 ans must be one of a[i]
 if a[k] is answer then:
@@ -10,15 +24,15 @@ So,
 Therefore,
     left + right = ps[n] - 2 * ps[i] + (2 * i - n) * a[i]
 """
-n = int(input())
-a = list(map(int, input().split()))
-a.sort()
-ps = [0]
-for i in a: ps.append(ps[-1] + i)
-ans = 1 << 60
-for i in range(n):
-    ans = min(ans, ps[n] - 2 * ps[i] + (2 * i - n) * a[i])
-print(ans)
+# n = int(input())
+# a = list(map(int, input().split()))
+# a.sort()
+# ps = [0]
+# for i in a: ps.append(ps[-1] + i)
+# ans = 1 << 60
+# for i in range(n):
+#     ans = min(ans, ps[n] - 2 * ps[i] + (2 * i - n) * a[i])
+# print(ans)
 
 
 # # Greedy will fail
