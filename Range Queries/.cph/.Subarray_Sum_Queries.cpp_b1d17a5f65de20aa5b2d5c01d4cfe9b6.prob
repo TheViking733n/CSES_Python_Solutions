@@ -1,0 +1,1 @@
+{"name":"Local: Subarray_Sum_Queries","url":"c:\\Users\\acer\\Desktop\\CSES\\Range Queries\\Subarray_Sum_Queries.cpp","tests":[{"id":1685241979194,"input":"5 3\n1 2 -3 5 -1\n2 6\n3 1\n2 -2","output":"9\n13\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\acer\\Desktop\\CSES\\Range Queries\\Subarray_Sum_Queries.cpp","group":"local","local":true}
