@@ -1,0 +1,1 @@
+{"name":"Local: Common_Divisors","url":"c:\\Users\\acer\\Desktop\\CSES\\Mathematics\\Common_Divisors.cpp","tests":[{"id":1686818252829,"input":"5\n3 14 15 7 9","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\acer\\Desktop\\CSES\\Mathematics\\Common_Divisors.cpp","group":"local","local":true}

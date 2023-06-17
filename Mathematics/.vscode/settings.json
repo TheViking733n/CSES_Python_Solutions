@@ -1,0 +1,8 @@
+{
+    "cph.general.onceMaintainerMessage": false,
+    "files.associations": {
+        "ostream": "cpp",
+        "vector": "cpp",
+        "xiosbase": "cpp"
+    }
+}
